@@ -8,6 +8,6 @@ services:
     environment:
     - FULL_SYNC=true
     - RUN_GRAVITY=true
-    - CRON=* * * * *
+    - CRON=0 * * * *
     - TZ=America/Los_Angeles
     - CLIENT_SKIP_TLS_VERIFICATION=true
