@@ -7,7 +7,7 @@ services:
     env_file: .env
     environment:
     - FULL_SYNC=true
-    - RUN_GRAVITY=true
+    - RUN_GRAVITY=false
     - CRON=0 * * * *
     - TZ=America/Los_Angeles
     - CLIENT_SKIP_TLS_VERIFICATION=true
